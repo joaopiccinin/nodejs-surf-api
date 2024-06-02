@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-surf-api",
+  "version": "1.0.0",
+  "description": "Typescript nodejs api",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Joao Piccinin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.4",
+    "@types/node": "^20.13.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.3"
+  }
+}
